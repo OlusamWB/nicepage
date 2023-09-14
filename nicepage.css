@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: auto;
+}
+h1 {
+    font-size: 4rem;
+}
+header {
+    background-color: white;
+    padding: 1rem;
+    display: inline-flex;
+}  
+.logo {
+    margin-left: 800px;
+}
+.column {
+    display: inline-block;
+}
+.container :first-child {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #9069d4;
+    color: white;
+    font-family: raleway;
+}
+.wrap {
+    width: 70%;
+    display: inline-flex;
+}
+.fourboxes {
+    width: 40%;
+    background-color: blue;
+}
+img {
+    justify-content: bottom;
+}
