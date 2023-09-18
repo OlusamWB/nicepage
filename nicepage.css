@@ -89,4 +89,29 @@ h1 {
     display: flex;
     flex-direction: row;
 }
-
+.second2 {
+    padding: 6em 4em 4em 0em;
+}
+.second2 button {
+    padding: 0.8em 3em;
+    font-size: 1.2rem;
+    border: 0px solid #dfd2f4;
+    border-radius: 2rem;
+}
+button.mobile-button {
+    background-color: #dfd2f4;
+}
+.second2 h2 {
+    font-size: 3rem ;
+}
+.second2 p {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.second2 a{
+    color: #9069d4;
+}
+.store {
+    display: flex;
+    flex-direction: row;
+}
