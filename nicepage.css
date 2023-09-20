@@ -7,8 +7,10 @@ body {
     margin: 0;
     padding: 0;
 }
-p {
+p, button {
     font-family: 'Open Sans';
+    font-size: 1.0rem;
+    line-height: 30px;
 }
 header  {
     padding: 2em 4em;
@@ -113,8 +115,6 @@ button.mobile-button {
     font-size: 3rem ;
 }
 .second2 p {
-    font-size: 1.2rem;
-    line-height: 30px;
     width: 80%;
 }
 .second2 a{
@@ -144,7 +144,6 @@ button.mobile-button {
 }
 .third1 p {
     font-size: 1.3rem ;
-    line-height: 30px;
     color: #dfd2f4;
 }
 .third button {
@@ -157,5 +156,20 @@ button.mobile-button {
     margin-top: 2rem;
 }
 .third2 {
+    width: 50%;
+}
+.fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background-color: #f2f2f2;
+}
+.fourth h2 {
+    font-size: 3rem;
+    padding-bottom:
+}
+.fourth p {
+    text-align: center;
     width: 50%;
 }
