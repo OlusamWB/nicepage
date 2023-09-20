@@ -171,5 +171,28 @@ button.mobile-button {
 }
 .fourth p {
     text-align: center;
-    width: 50%;
+}
+.fourth-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fourth1,.fourth2,.fourth3 {
+    width: 25%;
+    padding: 2.5rem 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    margin:20px; 
+}
+.fourth1 p,.fourth2 p,.fourth3 p {
+    text-align: right;
+}
+.inner-fourth {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 40px;
+}
+.inner-fourth img {
+    width: 25%;
 }
