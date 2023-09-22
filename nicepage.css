@@ -158,7 +158,7 @@ button.mobile-button {
 .third2 {
     width: 50%;
 }
-.fourth {
+.fourth, .fifth{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,7 +167,6 @@ button.mobile-button {
 }
 .fourth h2 {
     font-size: 3rem;
-    padding-bottom:
 }
 .fourth p {
     text-align: center;
@@ -195,4 +194,29 @@ button.mobile-button {
 }
 .inner-fourth img {
     width: 25%;
+}
+.name {
+    position: relative;
+    top: 2%;
+    right: 20%;
+}
+.fifth {
+    background-color: #260556;
+}
+.fifth h2 {
+    font-size: 3rem;
+    color: white;
+}
+.fifth p {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.fifth-boxes {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.fifth1,.fifth2.,.fifth3 {
+    background-color: white;
 }
