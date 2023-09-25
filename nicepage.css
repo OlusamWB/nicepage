@@ -251,28 +251,59 @@ button.mobile-button {
 .sixth {
     background-color:#f2f2f2;
     padding: 2em;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    b
 }
 .sixth h2 {
     font-size: 3rem;
 }
 .sixth input {
     font-family: 'Open Sans';
-    width: 100%;
+    width: 400px;
     padding: 1em;
     background-color: white;
     border: none;
     border-bottom: 1px solid black;
     font-size: 1.00rem;
     color: #d7d7d7;
-    margin-right: ;
+    margin-right: 20px;
 }
 .sixth-row {
-    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    m
 }
+.sixth-button {
+    padding: 0em 2em 0em;
+    background-color: #9069d4;
+    border: 0px solid #9069d4;
+    border-radius: 1rem;
+    color: white;
+    font-size:  0.9rem;
+    letter-spacing: 3px;
+}
+.dot {
+    height: 7px;
+    width: 7px;
+    margin: 0 5px 0px 5px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .sixth h3 {
+    font-size: 1.5rem;
+  }
+  .sixth-last {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 10px;
+  }
+  .sixth-last img {
+
+    width: 10%;
+    margin: 2.5em;
+  }
+
