@@ -275,7 +275,7 @@ button.mobile-button {
     flex-direction: row;
     justify-content: center;
 }
-.sixth-button {
+.sixth-button{
     padding: 0em 2em 0em;
     background-color: #9069d4;
     border: 0px solid #9069d4;
@@ -305,6 +305,51 @@ button.mobile-button {
     width: 10%;
     margin: 2.5em;
   }
-  .sixth
-  
+  .seventh {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #260556;
+    padding: 8em;
+    align-items: center;
+  }
+  .seventh-row {
+    width: 90%;
+  }
+  .seventh-row img {
+    width: 30%;
+    margin: 7px;
+  }
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: -15%;
+    width: 500px;
+    background-color: #f9f9f9;
+    color: #260556;
+    border-radius: 1rem;
+    padding: 2rem 2rem 4rem 2rem;
+}
+.portfolio h2 {
+    font-size: 2.5rem;
+}
+.portfolio p {
+    color: black;
+    font-size: 1.1rem;
+}
+.seventh-last a {
+    color: black;
+}
 
+.portfolio button {
+    width: 40%;
+    padding: 0.6em 2.4em 0.6em;
+    background-color: #9069d4;
+    border: 0px solid #9069d4;
+    border-radius: 0.5rem;
+    color: white;
+    font-size:  0.8rem;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
