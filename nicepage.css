@@ -11,8 +11,9 @@ p, button {
     font-family: 'Open Sans';
     font-size: 1.0rem;
     line-height: 30px;
+    outline-color: black;
 }
-header  {
+header {
     padding: 2em 4em;
     display: flex;
     justify-content: space-between;
@@ -201,7 +202,13 @@ button.mobile-button {
     right: 20%;
 }
 .fifth {
-    background-color: #260556;
+    background: linear-gradient(to bottom, #260556 0%, #260556 35%, #9069d4 35%, #9069d4 65%, #260556 65%, #260556 100%);
+    
+}
+.gradient-rectangle {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    
 }
 .fifth h2 {
     font-size: 3rem;
@@ -315,6 +322,7 @@ button.mobile-button {
   }
   .seventh-row {
     width: 90%;
+
   }
   .seventh-row img {
     width: 30%;
@@ -341,7 +349,6 @@ button.mobile-button {
 .seventh-last a {
     color: black;
 }
-
 .portfolio button {
     width: 40%;
     padding: 0.6em 2.4em 0.6em;
@@ -352,4 +359,40 @@ button.mobile-button {
     font-size:  0.8rem;
     letter-spacing: 3px;
     margin-top: 20px;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+}
+.seventh-row3 {
+    display: flex;
+}
+.seventh-row3 img{
+    width: 30%;
+    background-color: white;
+    border-radius: 0.8rem;
+}
+.us {
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    background-color: #9069d4;
+    width: 30%;
+    padding: 2em;
+    border-radius: 0.8rem;
+    color: white;
+}
+.us button {
+    width: 50%;
+    align-items: left;
+}
+.us h2 {
+    font-size: 3rem;
+}
+.us a {
+    color: white;
+}
+.girl {
+    margin-left: -15%;
+    margin-top: 25%;
 }
